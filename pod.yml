@@ -7,5 +7,7 @@ spec:
             - name: jenkins 
               image: jenkins
               ports:
-               -containerPort: 80
+               - containerPort: 80
+               - nodePort: 8080
+
  
